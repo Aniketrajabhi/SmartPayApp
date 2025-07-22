@@ -1,9 +1,9 @@
 package org.example.impl;
 
-import com.wallet.wallet.model.Transaction;
-import com.wallet.wallet.model.Wallet;
-import com.wallet.wallet.repository.TransactionRepository;
-import com.wallet.wallet.repository.WalletRepository;
+import org.example.TransactionRepository;
+import org.example.WalletRepository;
+import org.example.Wallet;
+import org.example.Transaction;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

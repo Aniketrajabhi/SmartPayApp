@@ -1,0 +1,3 @@
+jwt:
+  secret: ENC(${JWT_SECRET})
+  expirationMs: 3600000

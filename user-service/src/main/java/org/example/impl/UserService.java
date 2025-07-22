@@ -1,7 +1,7 @@
 package org.example.impl;
 
-import com.wallet.user.model.User;
-import com.wallet.user.repository.UserRepository;
+import org.example.User;
+import org.example.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

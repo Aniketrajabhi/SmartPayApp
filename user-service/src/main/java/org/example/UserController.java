@@ -1,6 +1,6 @@
 package org.example;
 
-import com.wallet.user.service.UserService;
+import org.example.impl.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

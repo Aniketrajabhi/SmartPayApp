@@ -1,6 +1,6 @@
 package org.example;
 
-import com.wallet.wallet.service.WalletService;
+import org.example.impl.WalletService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

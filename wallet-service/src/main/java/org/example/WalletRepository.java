@@ -1,6 +1,6 @@
 package org.example;
 
-import com.wallet.wallet.model.Wallet;
+import org.example.Wallet;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
