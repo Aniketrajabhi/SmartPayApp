@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: wallet-service
+  datasource:
+    url: jdbc:postgresql://postgres:5432/wallet
+    username: wallet
+    password: wallet
+  jpa:
+    hibernate:
+      ddl-auto: update
+  kafka:
+    bootstrap-servers: kafka:29092
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://auth-service:9000
