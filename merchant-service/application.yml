@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: merchant-service
+  data:
+    mongodb:
+      uri: mongodb://wallet:wallet@mongodb:27017/wallet?authSource=admin
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://auth-service:9000
