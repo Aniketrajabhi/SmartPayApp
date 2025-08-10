@@ -1,5 +1,6 @@
 server:
   port: 9000
+
 spring:
   datasource:
     url: jdbc:postgresql://postgres:5432/wallet
@@ -12,3 +13,7 @@ spring:
     oauth2:
       authorizationserver:
         issuer: http://auth-service:9000
+
+jwt:
+  secret: ENC(${JWT_SECRET})
+  expirationMs: 3600000

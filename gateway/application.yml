@@ -29,3 +29,6 @@ spring:
   redis:
     host: redis
     port: 6379
+jwt:
+  secret: ENC(${JWT_SECRET})
+  expirationMs: 3600000

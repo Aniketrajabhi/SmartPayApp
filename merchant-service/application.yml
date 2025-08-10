@@ -11,3 +11,6 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://auth-service:9000
+jwt:
+  secret: ENC(${JWT_SECRET})
+  expirationMs: 3600000
