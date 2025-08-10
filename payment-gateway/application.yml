@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: payment-gateway-service
+    name: payment-gateway
   security:
     oauth2:
       resourceserver:
