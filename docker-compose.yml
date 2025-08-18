@@ -1,6 +1,5 @@
 networks:
   smartpay-net:
-
 volumes:
   pgdata:
   mongodata:
